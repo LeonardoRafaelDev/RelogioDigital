@@ -1,0 +1,170 @@
+/* alteracoes que faco no meu css*/
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+* {
+      margin: 0;
+}
+
+html,
+body {
+      height: 100%;
+}
+
+body {
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+}
+img,picture,
+video,canvas,
+svg {
+      display: block;
+      max-width: 100%;
+}
+
+input,button,
+textarea,select {
+      font: inherit;
+}
+
+p,
+h1,h2,h3,
+h4,h5,h6 {
+      overflow-wrap: break-word;
+}
+
+#root,#__next {
+      isolation: isolate;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+      --card-height: 60vh;
+      --card-width: calc(var(--card-height) / 1.4);
+}
+
+body {
+      min-height: 100vh;
+      background: #212534;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      box-sizing: border-box;
+}
+
+.card {
+      background: #191c29;
+      width: var(--card-width);
+      height: var(--card-height);
+      margin-top: 5rem;
+      padding: 3px;
+      position: relative;
+      border-radius: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      font-size: 1.5em;
+      color: rgb(88 199 250 / 0%);
+      cursor: pointer;
+      font-family: "Montserrat", sans-serif;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+}
+
+.card:hover {
+      color: #8e05c2;
+      transition: color 5s;
+      -webkit-transition: color 5s;
+      -moz-transition: color 5s;
+      -ms-transition: color 5s;
+      -o-transition: color 5s;
+}
+
+.card::before {
+      content: "";
+      width: 104%;
+      height: 102%;
+      border-radius: 8px;
+      background-image: linear-gradient(var(--rotate),#0e0b29,#3b0032 43%,#7d2948);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      -webkit-animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+      position: absolute;
+      content: "";
+      top: calc(var(--card-height) / 6);
+      left: 0;
+      right: 0;
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      transform: scale(0.8);
+      filter: blur(calc(var(--card-height) / 6));
+      background-image: linear-gradient(var(--rotate),#2e1437,#51425f 43%,#4f2958);
+      transition: opacity 0.5s;
+      animation: spin 2.5s linear infinite;
+      opacity: 1;
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      -webkit-filter: blur(calc(var(--card-height) / 6));
+      -webkit-transition: opacity 0.5s;
+      -moz-transition: opacity 0.5s;
+      -ms-transition: opacity 0.5s;
+      -o-transition: opacity 0.5s;
+      -webkit-animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+      0% {
+      --rotate: 0deg;
+      }
+      100% {
+      --rotate: 360deg;
+      }
+}
+.relogio {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: #ff00ea;
+      font-size: 60px;
+      font-family: "Montserrat", sans-serif;
+      letter-spacing: 7px;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+}
+.frase-motivacional{
+      margin-top:10rem;
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
+}
