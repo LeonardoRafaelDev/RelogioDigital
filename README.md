@@ -1,14 +1,16 @@
  <h1 align="center">  Relógio Digital </h1>
 
-### Um dos meu primeiros projetos que utilizei Javascript
+### One of my first projects that used Javascript
 
-### O projeto trata-se de um Relogio Digital que puxa o Horário Atual da maquina local e fica atualizando cada segundo, ao passar o mouse por cima aparece ta na hora de codar.💜
+### The project is a Digital Clock that pulls the Current Time from the local machine and keeps updating every second, when hovering over it, it's time to code
+.💜
 
 <h1 align="center">
  <img alt="readme" src="https://media.giphy.com/media/iKue6mQNAnio0GLRTy/giphy.gif">
 </h1>
 
-### ⌛ Rodando o Projeto
+### ⌛ Running the Project
+
 ```bash
 # clone do repositorio
      $ git clone https://github.com/LeonardoRafaelDev/RelogioDigital
