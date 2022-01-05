@@ -26,6 +26,5 @@
             document.getElementById("relogio").textContent = hora;
             setTimeout(mostraHorario, 1000);
       }
-      
       mostraHorario();
 
