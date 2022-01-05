@@ -2,8 +2,7 @@
 
 ### One of my first projects that used Javascript
 
-### The project is a Digital Clock that pulls the Current Time from the local machine and keeps updating every second, when hovering over it, it's time to code
-.💜
+### The project is a Digital Clock that pulls the Current Time from the local machine and keeps updating every second, when hovering over it, it's time to code.💜
 
 <h1 align="center">
  <img alt="readme" src="https://media.giphy.com/media/iKue6mQNAnio0GLRTy/giphy.gif">
@@ -19,8 +18,8 @@
 # e basta executar o arquivo .html
       $ firefox index.html
 ```
-### 🛠️ Tecnologias
-As seguintes tecnologias foram utilizadas:
+### 🛠️ Technologies
+The following technologies were used:
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
