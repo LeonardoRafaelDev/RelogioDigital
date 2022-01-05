@@ -2,13 +2,13 @@
       // criando funcoes de hora minuto segundo e
       // session (tarde ou manha)
       function mostraHorario(){
-            var date = new Date();
-            var h = date.getHours();
-            var m = date.getMinutes();
-            var s = date.getSeconds();
-            var session = "AM";
+            const date = new Date();
+            let h = date.getHours();
+            let m = date.getMinutes();
+            let s = date.getSeconds();
+            let session = "AM";
             //determinando qual aparece PM ou AM
-            if (h == 0){
+            if (h === 0){
                   h = 12;
             }
 
@@ -21,7 +21,7 @@
             m = (m < 10) ? "0" + m : m;
             s = (s < 10) ? "0" + s : s;
 
-            var hora = h + ":" + m + ":" + s + " " + session;
+            const hora = h + ":" + m + ":" + s + " " + session;
             document.getElementById("relogio").innerText = hora;
             document.getElementById("relogio").textContent = hora;
             setTimeout(mostraHorario, 1000);
