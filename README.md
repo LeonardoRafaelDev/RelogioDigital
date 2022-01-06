@@ -5,7 +5,7 @@
 ### The project is a Digital Clock that pulls the Current Time from the local machine and keeps updating every second, when hovering over it, it's time to code.💜
 
 <h1 align="center">
- <img alt="readme" src="https://media.giphy.com/media/y1lsdq0ih4XB2RMatO/giphy.gif">
+ <img alt="readme" src="https://media.giphy.com/media/zS88PAIkXq7ujBC7aq/giphy.gif">
 </h1>
 
 ### ⌛ Running the Project
